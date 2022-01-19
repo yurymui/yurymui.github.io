@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+.p-title{
+    display: block;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-title h3{
+    font-size: 3rem;
+
+}
+.p-title img{
+    width: 150px;
+   height: auto;
+}
+
+
+
+.project-block 
+{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+}
+.image-block{
+
+    padding: 0 4px;
+}
+.image-block img{
+    margin-top: 8px;
+    margin-left: 8px;
+    vertical-align: middle;
+    max-width: 250px;
+    height: auto;
+}
+
+.image-block img:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
