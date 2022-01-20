@@ -310,8 +310,8 @@
 
     })();
 
-<<<<<<< HEAD
+
 })(document.documentElement);
-=======
+
 })(document.documentElement);
->>>>>>> 20c3a2e04e0de0c52c0a75ccfc3504d8ce57d09a
+
