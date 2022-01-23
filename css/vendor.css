@@ -348,9 +348,9 @@ pre[class*="language-"] {
 }
 
 :root {
-    /*
+    
     --swiper-pagination-color: var(--swiper-theme-color);
-    */
+    
 }
 
 .swiper-pagination {

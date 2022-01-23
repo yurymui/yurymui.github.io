@@ -15,7 +15,7 @@
      * color-2(#F06000)
      */
     --color-1: hsla(182, 82%, 38%, 1);
-    --color-2: hsla(24, 100%, 47%, 1);
+    --color-2: rgb(191, 98, 189);
 
     /* theme color variations
      */
@@ -167,6 +167,7 @@
 
 /* on mobile devices below 600px
  */
+
 @media screen and (max-width: 600px) {
     :root {
         --base-font-size: 1.6rem;
@@ -308,16 +309,13 @@ code, kbd, samp {
     font-size: 1em;
     /* 2 */
 }
-
 /* Add the correct font size in all browsers. */
-
 small {
     font-size: 80%;
 }
 
 /* Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers. */
-
 sub, sup {
     font-size: 75%;
     line-height: 0;
@@ -3903,6 +3901,27 @@ input[type="button"].btn--primary:focus {
     overflow: hidden;
 }
 
+.overlay::before {
+    position: absolute;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.overlay::after {
+    opacity: 1;
+}
+
+
 .folio-item__thumb::before {
     z-index: 1;
     content: "";
@@ -3923,7 +3942,7 @@ input[type="button"].btn--primary:focus {
 
 .folio-item__thumb::after {
     z-index: 1;
-    content: "...";
+    content: "";
     font-family: var(--font-2);
     font-weight: 300;
     font-size: 3rem;
