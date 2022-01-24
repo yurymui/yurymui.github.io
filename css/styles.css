@@ -72,7 +72,7 @@
      */
     --color-text       : var(--color-gray-16);
     --color-text-dark  : var(--color-black);
-    --color-text-light : var(--color-gray-7);
+    --color-text-light : var(--color-gray-10);
     --color-placeholder: var(--color-gray-7);
 
     /* buttons
@@ -3119,7 +3119,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-header__nav {
     font-family: var(--font-1);
-    font-size: 1.45rem;
+    font-size: 2.0rem;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -3145,7 +3145,7 @@ input[type="button"].btn--primary:focus {
     height: var(--header-height);
     line-height: var(--header-height);
     padding: 0 1.6rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 253, 253, 0.918);
 }
 
 .s-header__nav a:hover, .s-header__nav a:focus {
@@ -3360,7 +3360,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/header-bg-3000.jpg);
+    background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3874,11 +3874,11 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-portfolio {
     background-color: var(--color-gray-1);
-    padding-top: calc(6 * var(--space));
+    padding-top: calc(4 * var(--space));
     padding-bottom: var(--vspace-5);
 }
 
-.s-portfolio h3 {
+.s-portfolio h1 {
     margin-top: 0;
 }
 
