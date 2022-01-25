@@ -3701,10 +3701,10 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-about__pic {
-    width: var(--vspace-5);
-    height: var(--vspace-5);
-    border: 1.6rem solid rgba(255, 255, 255, 0.02);
-    border-radius: 50%;
+    width: var(--vspace-7);
+    height: var(--vspace-7);
+    border: 1.6rem solid rgba(7, 7, 7, 0.856);
+    border-radius: 10%;
 }
 
 .s-about__content-bottom {
