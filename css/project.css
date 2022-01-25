@@ -10,8 +10,8 @@ body{
 
 .p-title  h3{
     font-size: 3rem;
-
 }
+
 .p-title img{
     width: 250px;
     height: auto;
@@ -41,6 +41,13 @@ body{
     height: auto;
     margin-left: auto;
    
+}
+.project-block h2 h5{
+    text-align: center;
+   align-items: center;
+}
+.project-block p{
+    width: 60%;
 }
 
 .image-block{
@@ -75,6 +82,11 @@ body{
         margin-left: 9rem;
         margin-right: 0;
        
+    }
+
+    .project-block p{
+        width: 80%;
+        text-align: justify;
     }
    
 }
