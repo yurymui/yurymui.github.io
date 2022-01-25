@@ -22,7 +22,7 @@ body{
 .project-block 
 {
     margin: auto;
-    width: 70%;
+    width: 55%;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
