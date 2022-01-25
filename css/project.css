@@ -8,9 +8,23 @@ body{
  font-family: Arial, Helvetica, sans-serif;
 }
 
-.p-title h3{
+.p-title  h3{
     font-size: 3rem;
 
+}
+.p-title img{
+    width: 250px;
+    height: auto;
+}
+
+.head-title{
+    width: 50%;
+    align-items:center;
+    height: auto;
+    margin: auto;
+}
+.head-title h2 h3{
+    text-align: center;
 }
 
 .img-container{
@@ -22,12 +36,17 @@ body{
 {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
+    height: auto;
+    margin-left: auto;
+   
 }
+
 .image-block{
-    padding: 0 4px;
+    margin-bottom: 5rem;
 }
+
 .image-block img{
     margin-top: 8px;
     margin-left: 8px;
@@ -43,9 +62,19 @@ body{
 
 
 @media screen and (max-width: 800px) {
-    .project-block {
-        display: block;
+    .head-title {
+        width: 80%;
         align-items: center;
+        text-align: justify;
+    }
+    .head-title h3 {
+        align-items: center;
+    }
+
+    .project-block {
+        margin-left: 9rem;
+        margin-right: 0;
+       
     }
    
 }
