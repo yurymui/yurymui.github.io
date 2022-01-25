@@ -12,24 +12,20 @@ body{
     font-size: 3rem;
 
 }
-.p-title img{
-    width: 150px;
-   height: auto;
+
+.img-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
-
-
-
 .project-block 
 {
-    margin: auto;
-    width: 55%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
     align-items: center;
+    justify-content: center;
 }
 .image-block{
-
     padding: 0 4px;
 }
 .image-block img{
@@ -46,7 +42,13 @@ body{
 }
 
 
-
+@media screen and (max-width: 800px) {
+    .project-block {
+        display: block;
+        align-items: center;
+    }
+   
+}
 
 
 

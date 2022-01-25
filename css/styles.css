@@ -3703,7 +3703,7 @@ input[type="button"].btn--primary:focus {
 .s-about__pic {
     width: var(--vspace-7);
     height: var(--vspace-7);
-    border: 1.6rem solid rgba(7, 7, 7, 0.856);
+    border: 1.4rem solid rgba(7, 7, 7, 0.658);
     border-radius: 10%;
 }
 
