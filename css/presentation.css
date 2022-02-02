@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+hr{
+    text-align: center;
+    width: 60%;
+}
+
+.project-des{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.p-title{
+    margin: auto;
+    width: 80%;
+   text-align: center;
+}
+.p-title h2 h3 h6 {
+    width: 50%;
+    margin: auto;
+}
+
+.p-title p{
+    width: 80%;
+    margin: auto;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.show-on-hover {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
